@@ -20,7 +20,7 @@ void f(int* a, int n) {
     
     int* p = new int[n];
     for (int i = 0; i<n; i++) {
-   &nbs p;    p[i] = a[i];
+         p[i] = a[i];
     }
     cout << "p values: ";
     for (int i = 0; i<n; i++) {
